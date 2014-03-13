@@ -1,0 +1,167 @@
+/**********************
+     Main Styles
+***********************/
+
+*,*:before,*:after{
+  margin:0;
+  padding: 0;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+img{ border: none; max-width: 100%; }
+
+body{
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background: white;
+  font-family: sans-serif; 
+}
+
+h1,h2,h3,h4,h5,h6{ font-weight: normal; margin: 10px 0; }
+
+a{ text-decoration: none; color: #347CAD; }
+
+p{ margin-bottom: 12px; }
+
+hr{
+  background: #CCC;
+  border: medium none;
+  height: 1px;
+  min-height: 1px;
+  overflow: hidden;
+  margin: 12px 0;
+}
+label{ display: block; padding: 10px 0 5px; }
+
+input, textarea, select{
+  padding: 6px;
+  max-width: 100%;
+  border: 1px solid #efecec;
+  width: 200px;
+  outline: none;
+}
+.mw-captcha-image-holder{ border-color: #efecec; height: 35px; }
+
+input[type='checkbox'],input[type='radio']{
+  padding: 0;
+  border: none;
+  width: auto;
+}
+
+table{ border-collapse: collapse; max-width: 100%; }
+
+td{
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+
+/**********************
+     Helper classes
+***********************/
+
+
+.pull-left{float: left;}
+.pull-right{ float: right; }
+.text-center{ text-align: center; }
+.text-right{ text-align: right;}
+.text-left{ text-align: left;}
+
+.btn{
+  display: inline-block;
+  padding: 6px 12px;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.well{
+  border: 1px solid #E3E3E3;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  min-height: 20px;
+  padding: 19px;
+}
+
+.well:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+
+/****************************************************************************************
+    Default styles for 'blocks' in which admin user can edit richtext content
+*****************************************************************************************/
+
+.wysiwyg ul,
+.wysiwyg ol{ margin: 0 0 0 17px; }
+
+.wysiwyg p,
+.wysiwyg h1,
+.wysiwyg h2,
+.wysiwyg h3,
+.wysiwyg h4,
+.wysiwyg h5,
+.wysiwyg h6{
+  margin: 6px 0;
+}
+
+/**********************
+     Site Styles
+***********************/
+
+#logo-column{ width: 200px; }
+
+.logo, .logo a{
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #333;
+}
+
+#header-cart{
+  width: 250px;
+  text-align: right;
+}
+#main-menu{ width: 100%; }
+
+.shop-related-items{ max-width: 590px; }
+
+.shop-related-items img{
+  height: 120px;
+  max-width: 100%;
+}
+
+.page-content{ min-height:500px; }
+
+.sidebar{  width: 300px;  }
+.sidebar > .mw-ui-col-container{ padding-left:40px;  }
+
+.sidebar-box{ margin: 10px 0; }
+
+.container{
+  max-width:80%;
+  margin: auto;
+  width: 1000px;
+}
+#footer .mw-ui-row{
+  width: 100%
+}
+
+
+/***********************
+    Media queries
+***********************/
+
+@media (max-width:768px){
+  #footer, #footer *, #header, #header-cart{ text-align: center; }
+  #main-navigation{ margin: 12px 0; }
+}
