@@ -27,7 +27,7 @@
             <div class="mw-ui-row valign">
                 <div class="mw-ui-col" id="logo-column">
                     <div class="mw-ui-col-container">
-                        <div class="element logo"><a href="<?php print site_url(); ?>">Skeleton</a></div>
+                        <h1 class="element logo-title"><a href="<?php print site_url(); ?>">Skeleton</a></h1>
                     </div>
                 </div>
                 <div class="mw-ui-col" id="main-menu">
