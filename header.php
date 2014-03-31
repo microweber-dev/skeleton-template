@@ -16,6 +16,9 @@
         <meta property="og:image" content="{content_image}">
         <meta property="og:description" content="{og_description}">
         <meta property="og:site_name" content="{og_site_name}">
+        
+  
+
 
         <link rel="stylesheet" href="<?php print TEMPLATE_URL; ?>skeleton.css" type="text/css" />
     </head>
