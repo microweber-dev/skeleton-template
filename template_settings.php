@@ -128,8 +128,8 @@ $(document).ready(function(){
              name="font"
              id="font"
              data-property="font-family" />
-<div title="Template Font" id="font_family" class="mw_dropdown mw_dropdown_type_navigation"> <span class="mw_dropdown_val_holder"> <span class="mw_dropdown_val" style="width: 130px;">Select</span> </span>
-  <div class="mw_dropdown_fields" style="left: 0px;">
+<div title="Template Font" id="font_family" class="mw-dropdown mw-dropdown_type_navigation"> <span class="mw-dropdown-value"> <span class="mw-dropdown-val" style="width: 130px;">Select</span> </span>
+  <div class="mw-dropdown-content" style="left: 0px;">
     <ul>
       <li value="Open Sans"><a style="font-family: Open Sans" href="#">Open Sans</a></li>
       <li value="Arial"><a style="font-family: Arial" href="#">Arial</a></li>
@@ -171,7 +171,7 @@ $(document).ready(function(){
     
     <?php if(isset($swatches) and !empty($swatches)): ?>
 <label class="mw-ui-label">Color scheme</label>
-<select id="mw_set_template_style" class="mw-ui-simple-dropdown">
+<select id="mw_set_template_style" class="mw-ui-field">
   <option value="reset">None</option>
   <?php foreach($swatches as $swatch): ?>
     <option <?php if(strstr($color_cheme,$swatch)) : ?> selected="selected" <?php endif; ?> value="<?php print template_url(); ?>swatches/<?php print $swatch ?>/bootstrap.min.css"><?php print ucwords($swatch); ?></option>
