@@ -1,0 +1,27 @@
+{
+  "name": "microweber-templates/skeleton-template",
+  "type": "microweber-template",
+  "description": "Skeleton",
+  "keywords": [
+    "microweber",
+    "ecommerce",
+    "skeleton"
+  ],
+  "homepage": "https://microweber.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MW Team",
+      "email": "contacts@microweber.com"
+    }
+  ],
+  "support": [
+    {
+      "email": "support@microweber.com",
+      "forum": "https://microweber.com/forum",
+      "irc": "https://webchat.freenode.net/?embed=1&channels=#microweber",
+      "docs": "http://docs.microweber.com"
+    }
+  ],
+  "target-dir": "skeleton" 
+}
